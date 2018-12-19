@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class FavoriteList extends StatefulWidget {
   final Set<String> data;
@@ -14,7 +13,6 @@ class FavoriteList extends StatefulWidget {
 
 class _FavoriteListState extends State<FavoriteList> {
   Set<String> _saved;
-  Future<SharedPreferences> _prefs = SharedPreferences.getInstance();
 
   @override
   void initState() {
