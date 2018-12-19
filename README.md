@@ -1,16 +1,15 @@
 # flutter-startup-name-generator
 
-A new Flutter project.
+> Generate startup names using this app. Made in Flutter.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Followed Google CodeLabs [Part 1](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1) & [Part 2](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2) to make this project.
 
-A few resources to get you started if this is your first Flutter project:
+Then I added [SharedPreferences](https://pub.dartlang.org/packages/shared_preferences) to it to persist data.
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+## Screenshots
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.io/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Main Screen](https://i.stack.imgur.com/ogMwU.png)
+
+![Favorite Screen](https://i.stack.imgur.com/uMPfg.png)
